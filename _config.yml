@@ -1,0 +1,24 @@
+title: Steno Blog
+email: info@stenoblog.com
+description: >
+  A blog about stenography and its open-source community.
+baseurl: ""
+url: "https://stenoblog.com"
+twitter_username: stenoblog
+facebook_username: stenoblog
+
+disqus:
+  shortname: stenoblog
+
+permalink: /:title/
+
+
+
+# Build settings
+markdown: kramdown
+theme: stenoblog-theme
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
