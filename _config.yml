@@ -4,6 +4,7 @@ description: >
   A blog about stenography and its open-source community.
 baseurl: ""
 url: "https://stenoblog.com"
+media_url: "https://media.stenoblog.com"
 twitter_username: stenoblog
 facebook_username: stenoblog
 
