@@ -24,7 +24,7 @@ The main reason why I chose "[the Hinge](https://stenomod.blogspot.de/2017/06/a-
 
 In this state, the Stenomod takes about the same desktop real estate as a coffee mug.
 This is especially nice since I currently don't use it as my main keyboard (obviously).
-To get a better idea of how the Stenomod fits on my desk, here's a comparison to my QWERTY keyboard, a [Vertex Pok3r with MX Clears](http://www.vortexgear.tw/vortex2_2.asp?kind=47&kind2=220&kind3=&kind4=1010), both unfolded and folded.
+To get a better idea of how the Stenomod fits on my desk, here's a comparison to my QWERTY keyboard, a [Vortex Pok3r with MX Clears](http://www.vortexgear.tw/vortex2_2.asp?kind=47&kind2=220&kind3=&kind4=1010), both unfolded and folded.
 
 ![Pok3r Stenomod Unfolded]({{ site.media_url }}/posts/2017-07-25-pok3r-stenomod-unfolded.jpg)
 
