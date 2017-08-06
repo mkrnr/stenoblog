@@ -29,7 +29,7 @@ The main reason is that Plover is written in Python and maybe I'd like to add st
 
 Also, I didn't want to program a GUI because I don't want to take care of the color and font configuration to make it fit to the rest of my system.
 Thereby, I simply output the suggestions to a terminal window using the standard Python 3 `print()` method together with some UNIX specific commands for clearing the terminal screen and hiding the cursor.
-This is how it looks like on my system:
+This is how it looks like on my system after typing `steno`:
 
 ![Stenocomplete interface]({{ site.media_url }}/posts/2017-08-06-stenocomplete.png)
 
@@ -43,7 +43,7 @@ I tried to separate the Linux-specific code from the rest to allow Windows suppo
 If you are interested in a Windows version of stenocomplete, let me know.
 
 But enough about the implementation details.
-Here's how stenocomplete (on the left) looks like in comparison to StenoTray (on the right):
+Here's how stenocomplete (on the left) looks like in comparison to StenoTray (on the right) after writing `AEUR`:
 
 ![Stenocomplete interface]({{ site.media_url }}/posts/2017-08-06-stenocomplete-aeur.png)
 
