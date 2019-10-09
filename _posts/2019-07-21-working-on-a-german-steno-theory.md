@@ -21,14 +21,14 @@ The `-Z` is replaced by an `-N` as a suffix `-en` which is used quite a lot in G
 Also most key combinations to form other letters are the same.
 By the way: The layout images were creating by manipulating the HTML on Ted's [Art of Chording](https://www.artofchording.com/) website and taking screenshots...
 
-Plover makes it super easy to add a new theory and the above layout can be found on [GitHub](https://github.com/mkrnr/plover_german_regenpfeifer).
+Plover makes it super easy to add a new theory and the above layout can be found on [GitHub](https://github.com/mkrnr/plover_regenpfeifer).
 For now, it can be installed manually with the following command:
 
 ```
 .\plover_console.exe -s plover_plugins install <path-to-regenpfeifer-git-repo>
 ```
 
-At some point you should also find it in the Plover Plugin Manager as `plover_german_regenpfeifer` but I'd like to add some orthography rules before uploading the first version.
+At some point you should also find it in the Plover Plugin Manager as `plover_regenpfeifer` but I'd like to add some orthography rules before uploading the first version.
 And yeah, I want to call this theory [Regenpfeifer](https://de.wikipedia.org/wiki/Regenpfeifer) which is German for plover and directly translates to rain whistler :-)
 
 Creating the Plover plugin for the Regenpfeifer system was a nice first step but the way more challenging task is to build a dictionary.
@@ -49,7 +49,7 @@ My first idea was to build a neural network based on the Plover dictionary and r
 Thereby I went for a simple [pattern-matching approach](https://github.com/mkrnr/regenpfeifer/blob/master/regenpfeifer/word_pattern_matcher.py) to build my dictionary and the patterns which are separated in left consonants, vowels, and right consonants can be found [here](https://github.com/mkrnr/regenpfeifer/tree/master/regenpfeifer/assets/patterns).
 After applying this rather simple pattern matching, the results need to be [validated](https://github.com/mkrnr/regenpfeifer/blob/master/regenpfeifer/stroke_validator.py) to see if they fit the steno order.
 
-The current result of this approach can be found in the [GitHub repo of the Regenpfeifer plover plugin](https://github.com/mkrnr/plover_german_regenpfeifer/blob/master/plover_german_regenpfeifer/dictionaries/main.json).
+The current result of this approach can be found in the [GitHub repo of the Regenpfeifer Plover plugin](https://github.com/mkrnr/plover_regenpfeifer/blob/master/plover_regenpfeifer/dictionaries/main.json).
 
 Some examples that turned out quite reasonable:
 ```

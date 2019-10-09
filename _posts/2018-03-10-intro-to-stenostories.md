@@ -32,6 +32,8 @@ Here's a summary of stenostories:
 And here are screenshots of an Anki flashcard from the NGSL list:
 
 ![Anki flashcard front]({{ site.media_url }}/posts/2018-08-13-anki-flashcard-any-front.png){: .center-image }
+
+
 ![Anki flashcard back]({{ site.media_url }}/posts/2018-08-13-anki-flashcard-any-back.png){: .center-image }
 
 If you're interested in using stenostories, the easiest way to do so is by downloading the [deck from AnkiWeb](https://ankiweb.net/shared/info/1298398907) and import it on the Anki desktop or mobile app.
