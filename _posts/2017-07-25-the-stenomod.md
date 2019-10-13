@@ -6,10 +6,10 @@ categories: meta
 author: "Martin Körner" 
 ---
 
-![Stenomod Full]({{ site.media_url }}/posts/2017-07-25-stenomod-full.jpg)
-
 Here it is! My Stenomod arrived a few days after my last post and, after a trip to the local customs office, I received it on the 11th of July. 
 Thereby, today marks exactly two weeks after my first strokes on the keyboard.
+
+![Stenomod Full]({{ site.media_url }}/posts/2017-07-25-stenomod-full.jpg)
 
 Before I talk about my experiences so far, let's have a closer look at this beauty.
 First, an overview of the accessories that came in the box:

@@ -1,12 +1,19 @@
 title: Steno Blog
 email: info@stenoblog.com
 description: >
-  A blog about stenography and its open-source community.
+  A blog about stenography and its open-source community around the Open Steno Project. You can read about steno hardware, Plover plugins, the German steno theory Regenpfeifer, and more.
 baseurl: ""
 url: "https://stenoblog.com"
 media_url: "https://media.stenoblog.com"
-twitter_username: stenoblog
-facebook_username: stenoblog
+
+show_excerpts: true
+
+minima:
+  # generate social links in footer
+  social_links:
+    twitter: stenoblog
+    facebook:  stenoblog
+    rss: rss
 
 disqus:
   shortname: stenoblog
@@ -18,8 +25,9 @@ permalink: /:title/
 # Build settings
 markdown: kramdown
 theme: stenoblog-theme
-gems:
+plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
